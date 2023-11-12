@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500&display=swap');
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    list-style-type: none;
+}
+
+.grid-container {
+    grid-template-columns: auto auto auto;
+    display: grid;
+    padding: 10px;
+}
+
+.grid-item {
+    background-color: #fff;
+    border: 1px solid #000;
+    font-size: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+    margin: 10px;
+}
+
+nav {
+    background-color: rgb(127, 217, 255);
+    display: inline-block;
+    text-align: center;
+    margin: 10;
+    width: 100%;
+}
+
+img {
+    width: 50%;
+    height: 50%;
+    margin: auto;
+}
+
+li {
+    font-size: 20px;
+    margin: 10px;
+    list-style-type: none;
+    margin: auto;
+}    
+
+#game {
+    margin: 10px;
+    height: 700px;
+    width: calc(100% - 10px);
+}
+
+ul {
+    text-align: center;
+    display:flex;
+    flex-direction:row;
+}
+
+/* 
+button {
+    background-color: rgb(127, 144, 255);
+    border: none;
+    border-radius: 4px;
+    margin: auto;
+    text-align: center;
+    font-size: 17px;
+    padding: 6px 18px;
+}
+*/
