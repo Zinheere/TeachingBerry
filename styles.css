@@ -45,7 +45,7 @@ li {
     margin: auto;
 }    
 
-#game {
+#game, #innerframe {
     margin: 10px;
     height: 700px;
     width: calc(100% - 10px);
