@@ -21,5 +21,5 @@ const faviconPaths = [
     "assets/icons/essentialassessment",
 ];
 
-window.addEventListener("load", updateVar);
+window.onload = updateVar()
 updateVar()
