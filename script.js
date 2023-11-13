@@ -4,8 +4,9 @@ function updateVar() {
 }
 
 function essentialAssessment() {
-    favicon.href = faviconPaths[faviconNumber]
-    title.innerHTML = titles[titleNumber]
+    faviconNumber = 1
+    titleNumber = 1
+    updateVar()
 }
 
 const favicon = document.getElementById("favicon")
