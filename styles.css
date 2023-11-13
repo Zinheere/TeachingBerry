@@ -51,7 +51,7 @@ ul {
     flex-direction:row;
 }
 
-button {
+/*button {
     background-color: rgb(127, 144, 255);
     border: none;
     border-radius: 4px;
