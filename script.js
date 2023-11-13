@@ -1,20 +1,24 @@
 function updateVar() {
-    const favicon = document.getElementById("favicon")
-    const title = document.getElementById("favicon")
+    favicon.href = faviconPaths[0]
+    title.innerHTML = titles[0]
 }
 
 function essentialAssessment() {
-    favicon.href = faviconPaths[0]
+    favicon.href = faviconPaths[faviconNumber]
+    title.innerHTML = titles[titleNumber]
 }
 
-
-
-
-
-const faviconPaths = [
-    "assets/icons/essentialassessment",
-];
 const favicon = document.getElementById("favicon")
 const title = document.getElementById("favicon")
+var faviconNumber = 0
+var titleNumber = 0
+const titles = [
+    "Teaching Berry | Maths",
+    "Essential Assessment",
+];
+const faviconPaths = [
+    "assets/icons/teachingberry",
+    "assets/icons/essentialassessment",
+];
 
 window.addEventListener("load", updateVar);
