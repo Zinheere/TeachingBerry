@@ -22,7 +22,4 @@ const faviconPaths = [
 ];
 
 window.addEventListener("load", updateVar);
-
-while (true) {
-    updateVar()
-}
+updateVar()
