@@ -3,6 +3,12 @@ function updateVar() {
     title.innerHTML = titles[sessionStorage.getItem("titleNumber")]
 }
 
+function teachingBerry() {
+    sessionStorage.setItem("titleNumber", 0);
+    sessionStorage.setItem("faviconNumber", 0);
+    updateVar()
+}
+
 function essentialAssessment() {
     sessionStorage.setItem("titleNumber", 1);
     sessionStorage.setItem("faviconNumber", 1);
@@ -60,9 +66,10 @@ const faviconPaths = [
     "assets/icons/seesaw.png"
 ];
 
-sessionStorage.setItem("titleNumber", 0);
-sessionStorage.setItem("faviconNumber", 0);
-title.onload = updateVar()
-favicon.onload = updateVar()
+teachingBerry()
+
+title.onload = teachingBerry()
+favicon.onload = teachingBerry()
 
 updateVar()
+teachingBerry()
