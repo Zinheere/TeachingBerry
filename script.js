@@ -1,41 +1,41 @@
 function updateVar() {
-    favicon.href = faviconPaths[localStorage.getItem("faviconNumber")]
-    title.innerHTML = titles[localStorage.getItem("titleNumber")]
+    favicon.href = faviconPaths[sessionStorage.getItem("faviconNumber")]
+    title.innerHTML = titles[sessionStorage.getItem("titleNumber")]
 }
 
 function essentialAssessment() {
-    localStorage.setItem("titleNumber", 1);
-    localStorage.setItem("faviconNumber", 1);
+    sessionStorage.setItem("titleNumber", 1);
+    sessionStorage.setItem("faviconNumber", 1);
     updateVar()
 }
 
 function patTesting() {
-    localStorage.setItem("titleNumber", 2);
-    localStorage.setItem("faviconNumber", 2);
+    sessionStorage.setItem("titleNumber", 2);
+    sessionStorage.setItem("faviconNumber", 2);
     updateVar()
 }
 
 function studyladder() {
-    localStorage.setItem("titleNumber", 3);
-    localStorage.setItem("faviconNumber", 3);
+    sessionStorage.setItem("titleNumber", 3);
+    sessionStorage.setItem("faviconNumber", 3);
     updateVar()
 }
 
 function nothing() {
-    localStorage.setItem("titleNumber", 4);
-    localStorage.setItem("faviconNumber", 4);
+    sessionStorage.setItem("titleNumber", 4);
+    sessionStorage.setItem("faviconNumber", 4);
     updateVar()
 }
 
 function newTab() {
-    localStorage.setItem("titleNumber", 5);
-    localStorage.setItem("faviconNumber", 5);
+    sessionStorage.setItem("titleNumber", 5);
+    sessionStorage.setItem("faviconNumber", 5);
     updateVar()
 }
 
 function seesaw() {
-    localStorage.setItem("titleNumber", 6);
-    localStorage.setItem("faviconNumber", 6);
+    sessionStorage.setItem("titleNumber", 6);
+    sessionStorage.setItem("faviconNumber", 6);
     updateVar()
 }
 
@@ -60,8 +60,8 @@ const faviconPaths = [
     "assets/icons/seesaw.png"
 ];
 
-localStorage.setItem("titleNumber", 0);
-localStorage.setItem("faviconNumber", 0);
+sessionStorage.setItem("titleNumber", 0);
+sessionStorage.setItem("faviconNumber", 0);
 title.onload = updateVar()
 favicon.onload = updateVar()
 
