@@ -57,7 +57,7 @@ const titles = [
     "Seesaw"
 ];
 const faviconPaths = [
-    "../../assets/icons/teachingberry.png",
+    "../../assets/icons/teachingberry.ico",
     "../../assets/icons/essentialassessment.png",
     "../../assets/icons/pattesting.png",
     "../../assets/icons/studyladder.png",
