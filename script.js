@@ -62,7 +62,7 @@ const faviconPaths = [
     "assets/icons/pattesting.png",
     "assets/icons/studyladder.png",
     "assets/icons/empty.png",
-    "assets/icons/empty.png",
+    "NULL",
     "assets/icons/seesaw.png"
 ];
 
