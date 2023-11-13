@@ -17,8 +17,8 @@ const titles = [
     "Essential Assessment",
 ];
 const faviconPaths = [
-    "assets/icons/teachingberry",
-    "assets/icons/essentialassessment",
+    "assets/icons/teachingberry.png",
+    "assets/icons/essentialassessment.png",
 ];
 
 window.onload = updateVar()

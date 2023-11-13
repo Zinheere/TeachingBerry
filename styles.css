@@ -51,7 +51,8 @@ ul {
     flex-direction:row;
 }
 
-/*button {
+/*
+button {
     background-color: rgb(127, 144, 255);
     border: none;
     border-radius: 4px;
@@ -60,6 +61,7 @@ ul {
     font-size: 17px;
     padding: 6px 18px;
 }
+*/
 
 .game {
 
