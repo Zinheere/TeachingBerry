@@ -1,6 +1,6 @@
 function updateVar() {
-    favicon.href = faviconPaths[localStorage.getItem(faviconNumber)]
-    title.innerHTML = titles[localStorage.getItem(titleNumber)]
+    favicon.href = faviconPaths[localStorage.getItem("faviconNumber")]
+    title.innerHTML = titles[localStorage.getItem("titleNumber")]
 }
 
 function essentialAssessment() {
