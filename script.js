@@ -10,7 +10,7 @@ function essentialAssessment() {
 }
 
 const favicon = document.getElementById("favicon")
-const title = document.getElementById("favicon")
+const title = document.getElementById("title")
 const titles = [
     "Teaching Berry | Maths",
     "Essential Assessment",
