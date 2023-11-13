@@ -43,12 +43,6 @@ li {
     margin: 10px;
     list-style-type: none;
     margin: auto;
-}    
-
-#game, #innerframe {
-    margin: 10px;
-    height: 700px;
-    width: calc(100% - 10px);
 }
 
 ul {
@@ -57,7 +51,6 @@ ul {
     flex-direction:row;
 }
 
-/* 
 button {
     background-color: rgb(127, 144, 255);
     border: none;
@@ -67,4 +60,13 @@ button {
     font-size: 17px;
     padding: 6px 18px;
 }
-*/
+
+.game {
+
+}
+
+#game, #innerframe {
+    margin: 10px;
+    height: 700px;
+    width: calc(100% - 10px);
+}
