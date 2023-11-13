@@ -62,5 +62,7 @@ const faviconPaths = [
 
 localStorage.setItem("titleNumber", 0);
 localStorage.setItem("faviconNumber", 0);
-window.onload = updateVar()
+title.onload = updateVar()
+favicon.onload = updateVar()
+
 updateVar()
