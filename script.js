@@ -46,7 +46,7 @@ const titles = [
     "Essential Assessment",
     "Test | ACER Online Assessment and Reporting",
     "Studyladder, online english literacy & mathematics. Kids activity games, worksheets and lesson plans.",
-    " ",
+    "⠀",
     "New Tab",
     "Seesaw"
 ];
