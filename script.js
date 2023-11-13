@@ -46,7 +46,7 @@ const titles = [
     "Essential Assessment",
     "Test | ACER Online Assessment and Reporting",
     "Studyladder, online english literacy & mathematics. Kids activity games, worksheets and lesson plans.",
-    "",
+    " ",
     "New Tab",
     "Seesaw"
 ];
@@ -55,8 +55,8 @@ const faviconPaths = [
     "assets/icons/essentialassessment.png",
     "assets/icons/pattesting.png",
     "assets/icons/studyladder.png",
-    "",
-    "",
+    "assets/icons/empty.png",
+    "assets/icons/empty.png",
     "assets/icons/seesaw.png"
 ];
 
