@@ -57,13 +57,13 @@ const titles = [
     "Seesaw"
 ];
 const faviconPaths = [
-    "../../assets/icons/teachingberry.png",
-    "../../assets/icons/essentialassessment.png",
-    "../../assets/icons/pattesting.png",
-    "../../assets/icons/studyladder.png",
-    "../../assets/icons/empty.png",
+    "../assets/icons/teachingberry.png",
+    "../assets/icons/essentialassessment.png",
+    "../assets/icons/pattesting.png",
+    "../assets/icons/studyladder.png",
+    "../assets/icons/empty.png",
     null,
-    "../../assets/icons/seesaw.png"
+    "../assets/icons/seesaw.png"
 ];
 
 teachingBerry()
@@ -73,3 +73,4 @@ favicon.onload = teachingBerry()
 
 updateVar()
 teachingBerry()
+updateVar()
