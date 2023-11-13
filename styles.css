@@ -22,6 +22,7 @@ body {
     padding-bottom: 30px;
     text-align: center;
     margin: 10px;
+    display: flex;
 }
 
 nav {
