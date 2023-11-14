@@ -45,6 +45,12 @@ function seesaw() {
     updateVar()
 }
 
+function blooket() {
+    sessionStorage.setItem("titleNumber", 7);
+    sessionStorage.setItem("faviconNumber", 7);
+    updateVar()
+}
+
 const favicon = document.getElementById("favicon")
 const title = document.getElementById("title")
 const titles = [
@@ -54,7 +60,8 @@ const titles = [
     "Studyladder, online english literacy & mathematics. Kids activity games, worksheets and lesson plans.",
     "⠀",
     "New Tab",
-    "Seesaw"
+    "Seesaw",
+    "Blooket"
 ];
 const faviconPaths = [
     "assets/icons/teachingberry.ico",
@@ -63,7 +70,8 @@ const faviconPaths = [
     "assets/icons/studyladder.png",
     "assets/icons/empty.png",
     null,
-    "assets/icons/seesaw.png"
+    "assets/icons/seesaw.png",
+    "assets/icons/blooket/png"
 ];
 
 teachingBerry()
